@@ -1,0 +1,16 @@
+.a{
+    color: var(--black);
+}
+
+#pro{
+    
+    background-clip: padding-box;
+    box-shadow: 0 0 10px #ff0000;
+    background-color: var(--black);
+    text-align: center;
+    padding: 8vb;
+    border: 10vb;
+    color: #FF8080;
+    border: solid;
+    
+}
