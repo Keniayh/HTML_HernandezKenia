@@ -12,7 +12,7 @@
     box-shadow: 0 0 10px #d6bcff;
     background-color: #ffffff;
     text-align: center;
-    padding: 15px;
+    padding: 30px;
     border: 10px;
     color: #b5cbfb;
     border: solid;
@@ -21,7 +21,7 @@
 
 #nose{
     display: inline-block;
-    padding: 10px 20px;
+    padding: 25px 25px;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -34,15 +34,21 @@
 }
 #si{
    background: rgba(191, 234, 243, 0.419);
-    font-family: sans-serif;  
+    font-family: sans-serif; 
 }
 
 .button-container{
     display: inline-block;
     margin-right: 10px;
 }
-
+div{
+    overflow: auto;
+}
 .bloque{
     max-width: 600px; 
     margin: 0 auto;
+}
+
+.image{
+    max-width: 100px;
 }
