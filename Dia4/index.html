@@ -7,6 +7,30 @@
     <title>Document</title>
 </head>
 <body>
-    <form action=""></form>
+    <br>
+    <h1 style="color:seagreen">Bienvenido!</h1>
+    <h3>Ingresa los datos necesarios para completar tu proceso de inscripción</h3>
+    <div class="si">
+        <form name="userdata" method="post" action="paginaa.html">
+        <label for="read">Nombre: </label>
+        <input type="text" name="first_name" placeholder="Ingresa tu nombre" maxlength="50">
+        <br>
+        <label for="read">Apellido: </label>
+        <input type="text" name="last_name" placeholder="Ingresa tu apellido" maxlength="50">
+        <br>
+        <label for="genero">mujer: </label>
+        <input type="radio" id="mujer" name="genero"    >
+        <label for="genero">hombre:  </label>
+        <input type="radio" id="hombre" name="genero"  >
+        <p>
+            <label>
+            <input type="checkbox" name="read" value="yes" checked>
+                I have read the conditions
+            </label>
+        </p>
+        <input type="submit">
+    </form>
+    </div>
+    
 </body>
 </html>
