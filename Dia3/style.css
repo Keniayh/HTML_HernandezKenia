@@ -39,4 +39,22 @@ table {
 caption {
   caption-side: bottom;
   padding: 10px;
+  font-weight: bold;
+}
+th, td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+
+td:last-of-type {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
 }
