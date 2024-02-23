@@ -6,28 +6,28 @@ body{
     flex-direction: column;
     align-items: center;
 }
+/* div del form*/
+
 .si{
-    text-align: left;
-    font-size: small;
+    text-align: left; /* aliniaaci{on del texto*/
+    font-size: small; /* tamaño de la letra */
     background-image: url(ims/fondo2.jpg);
-    /*background-color: rgba(54, 206, 185, 0.464);*/
     border-radius: 35px;
     height: 400px;
     width: 350px;
-    align-items: center;
+    align-items: center; /* me pone todo lo del div en el centro */
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 30px; /* tamaño del la "caja" del div*/
 }
 
-/* Estilos específicos para el input de nombre */
+/*cambio el color de los cuadritos*/
 .si input {
-    background-color: rgba(240, 255, 247, 0.472);
-    /* Cambia la forma del borde y el color de fondo del input de nombre */
+    background-color: rgba(240, 255, 247, 0.472); /* Cambia el color de fondo del input de nombre */
     border: 2px solid rgba(68, 203, 187, 0.472); /* Cambia el color del borde */
-    border-radius: 10px; /* Ajusta la forma del borde */
-    padding: 10px; /* Ajusta el espacio interno del input */
-    margin-bottom: 10px; /* Ajusta el margen inferior del input */
+    border-radius: 10px; /* rendondear el cuadrito */
+    padding: 10px; /* tamaño del cuadrito*/
+    margin-bottom: 10px; /* como un interlineado entre cuadritos */
 }
 
 .si select{
