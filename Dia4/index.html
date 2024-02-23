@@ -4,31 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Formulario de registro - Mi web</title>
 </head>
 <body>
     <br>
-    <h1 style="color:seagreen">Bienvenido!</h1>
-    <h3>Ingresa los datos necesarios para completar tu proceso de inscripción</h3>
+    <h1 style="color:rgb(46, 139, 116)">Formulario de inscripción</h1>
+    <h3 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Ingresa los datos necesarios para tu proceso de inscripción.</h3>
     <div class="si">
-        <form name="userdata" method="post" action="paginaa.html">
+        <form name="userdata" method="get" action="paginaa.html">
         <label for="read">Nombre: </label>
-        <input type="text" name="first_name" placeholder="Ingresa tu nombre" maxlength="50">
+        <input type="text" name="first_name" placeholder="Ingresar nombre" maxlength="50">
+        <br>
         <br>
         <label for="read">Apellido: </label>
-        <input type="text" name="last_name" placeholder="Ingresa tu apellido" maxlength="50">
+        <input type="text" name="last_name" placeholder="Ingresar apellido" maxlength="50">
         <br>
         <label for="genero">mujer: </label>
         <input type="radio" id="mujer" name="genero"    >
         <label for="genero">hombre:  </label>
         <input type="radio" id="hombre" name="genero"  >
+        <br>
+        <label for="read">Correo electronico: </label>
+        <input type="email" name="email" placeholder="Ingresar correo electronico">
+        <br>
+        <label for="read"></label>
         <p>
             <label>
             <input type="checkbox" name="read" value="yes" checked>
-                I have read the conditions
+               Deseo resivir información sobre novedades y ofertas
             </label>
         </p>
-        <input type="submit">
+        <p>
+            <label>
+                <input type="checkbox" name="read" value="yes" checked>
+                Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos
+            </label>
+        </p>
+        <input type="submit" value="Next">
     </form>
     </div>
     

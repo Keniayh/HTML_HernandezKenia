@@ -1,18 +1,39 @@
 body{
     background-image: url(ims/fondo.jpg);
     text-align: center;
-    font-family: CenturyGothic;
+    font-family: "Comic Sans Ms", cursive, sans-serif ;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .si{
-    background-image: url(ims/fondo2.jpeg);
-  border-radius: 35px;
-  height: 500px;
-  width: 300px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  padding: 50px;
+    text-align: left;
+    font-size: small;
+    background-image: url(ims/fondo2.jpg);
+    /*background-color: rgba(54, 206, 185, 0.464);*/
+    border-radius: 35px;
+    height: 400px;
+    width: 350px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+/* Estilos específicos para el input de nombre */
+.si input {
+    background-color: rgba(240, 255, 247, 0.472);
+    /* Cambia la forma del borde y el color de fondo del input de nombre */
+    border: 2px solid rgba(68, 203, 187, 0.472); /* Cambia el color del borde */
+    border-radius: 10px; /* Ajusta la forma del borde */
+    padding: 10px; /* Ajusta el espacio interno del input */
+    margin-bottom: 10px; /* Ajusta el margen inferior del input */
+}
+
+.si select{
+  background-color: rgba(240, 255, 247, 0.472);
+  border: 2px solid rgba(96, 248, 162, 0.472);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
 }

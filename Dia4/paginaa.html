@@ -1,12 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Formulario-inscricion</title>
+    <title>Formulario de registro - Mi web</title>
 </head>
 <body>
-    <h1>Felicidades has enviado la información con exito!!!</h1>
+    <br>
+    <h1 style="color:seagreen">Bienvenido!</h1>
+    <h3>Ingresa la información solicitada para completar tu proceso de inscripción.</h3>
+    <div class="si">
+        <form name="userdata" method="get" action="">
+        <label for="read">Población: </label>
+        <select name="poblation" id="select">
+            <option value="ciudad">Seleccionar Ciudad</option>
+            <option value="ciudad">Bucaramanga</option>
+            <option value="ciudad">Giron</option>
+            <option value="ciudad">Flordablanca</option>
+            <option value="ciudad">Piedecuesta</option>
+        </select>
+        <br>
+        <br>
+        <label for="read">Descripción: </label>
+        <input type="text" name="describe" placeholder="Realiza una breve descripción">
+        <br>
+        <input type="submit">
 </body>
 </html>
