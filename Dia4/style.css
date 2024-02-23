@@ -1,7 +1,7 @@
 body{
     background-image: url(ims/fondo.jpg);
     text-align: center;
-    font-family: "Comic Sans Ms", cursive, sans-serif ;
+    font-family: "Comic Sans Ms", cursive, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,6 +19,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 30px; /* tamaño del la "caja" del div*/
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.433) /* sombra imagen*/
 }
 
 /*cambio el color de los cuadritos*/
