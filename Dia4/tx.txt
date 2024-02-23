@@ -1,11 +1,7 @@
-Estimados compañeros, un cordial saludo.
-
-De acuerdo a lo visto en clase, realizar el siguiente ejercicio, donde anexes la evidencia de su subida en GitHub en esta tarea:
-
-______
 
 Se requiere la creación de una página web que albergue un formulario de registro con diversos campos de información. 
 Los elementos que deben incluirse son los siguientes:
+
 Nombre: Se utilizará un control de tipo texto para ingresar esta información.
 
 Apellidos: Asimismo, se empleará un control de tipo texto para introducir los apellidos.
