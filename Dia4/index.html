@@ -12,36 +12,36 @@
     <h3 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Ingresa los datos necesarios para tu proceso de inscripción.</h3>
     <div class="si">
         <form name="userdata" method="get" action="paginaa.html">
-        <label for="read">Nombre: </label>
-        <input type="text" name="first_name" placeholder="Ingresar nombre" maxlength="50">
-        <br>
-        <br>
-        <label for="read">Apellido: </label>
-        <input type="text" name="last_name" placeholder="Ingresar apellido" maxlength="50">
-        <br>
-        <label for="genero">mujer: </label>
-        <input type="radio" id="mujer" name="genero"    >
-        <label for="genero">hombre:  </label>
-        <input type="radio" id="hombre" name="genero"  >
-        <br>
-        <label for="read">Correo electronico: </label>
-        <input type="email" name="email" placeholder="Ingresar correo electronico">
-        <br>
-        <label for="read"></label>
-        <p>
-            <label>
-            <input type="checkbox" name="read" value="yes" checked>
-               Deseo resivir información sobre novedades y ofertas
-            </label>
-        </p>
-        <p>
-            <label>
+            <label for="read">Nombre: </label>
+            <input type="text" name="first_name" placeholder="Ingresar nombre" maxlength="50" required>
+            <br>
+            <br>
+            <label for="read">Apellido: </label>
+            <input type="text" name="last_name" placeholder="Ingresar apellido" maxlength="50" required>
+            <br>
+            <label for="genero">mujer: </label>
+            <input type="radio" id="mujer" name="genero" required>
+            <label for="genero">hombre:  </label>
+            <input type="radio" id="hombre" name="genero"  required>
+            <br>
+            <label for="read">Correo electronico: </label>
+            <input type="email" name="email" placeholder="Ingresar correo electronico" required>
+            <br>
+            <label for="read"></label>
+            <p>
+                <label>
                 <input type="checkbox" name="read" value="yes" checked>
-                Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos
-            </label>
-        </p>
-        <input type="submit" value="Next">
-    </form>
+                Deseo resivir información sobre novedades y ofertas
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="read" value="yes" checked>
+                    Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos
+                </label>
+            </p>
+            <input type="submit" value="Next">
+        </form>
     </div>
     
 </body>
