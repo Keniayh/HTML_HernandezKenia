@@ -37,3 +37,15 @@ body{
   padding: 10px;
   margin-bottom: 10px;
 }
+
+#no{
+    border-radius: 35px;
+    padding: 35px 35px;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid rgba(96, 248, 162, 0.472);
+    color: seagreen;
+    background-color: rgba(240, 255, 247, 0.472);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
