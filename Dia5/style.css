@@ -11,7 +11,7 @@ body{
     background-color: transparent;
     border: 1px solid #707070;
     height: 1080px;
-    width: 1920px; /* lo adapta al 100% de la pantalla en la que esté :) */
+    width: 1920px;
     background: currentColor;
 }
 
@@ -198,7 +198,8 @@ img.otro{
     height: 567px;
     border-radius: 108px;
     position: absolute;
-    align-self: center;
+    align-items: center;
+    display: flex;
 }
 
 .box{
@@ -239,4 +240,9 @@ img.otro{
     left: 1261px;
     width: 271px;
     height: 238px;
+}
+
+img#equis{
+    position: absolute;
+    left: 876px;
 }
