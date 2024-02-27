@@ -7,36 +7,45 @@
     font-family: 'Open sans, SemiBold';
     src: url(letrita/OpenSans-SemiBold.ttf) format('truetype');
 }
+html{
+    margin: 0%;
+    padding: 0%;
+    height: 1080px;
+    width: 1920px;
+}
+
 body{
-    position: relative;
+    border: none;
+    position: absolute;
+}
+
+.fondowite{
+    position: absolute;
     margin: 0%;
     padding: 0%;
     top: 0px;
     left: 0px;
-    width: 1400px;
-    height: 800px;
+    width: 1769px;
+    height: 1080px;
     background-color: white;
 }
 
-menu{
-    display: flex;
-}
 
 #metrix{
     position: absolute;
     top: 42px;
-    left: 43px;
-    width: 196px;
-    height: 44px;
+    left: 59px;
+    width: 269px;
+    height: 60px;
     padding: 0%;
 }
 
 #avr{
     font-family: 'Open sans, Regular';
-    top: 40px;
-    left: 700px;
-    width: 240px;
-    height: 41px;
+    top: 56px;
+    left: 960px;
+    width: 1769px;
+    height: 55px;
     font-size: 30px;
     position: absolute;
     background: transparent;
@@ -54,19 +63,27 @@ menu{
     text-align: left;
     font-size: 30px;
     padding: 0%;
-    top: 42px;
-    left: 972px;
-    width: 132px;
-    height: 41px;
+    top: 56px;
+    left: 1333px;
+    width: 181px;
+    height: 55px;
     position: absolute;
 }
 
-.barra{
+#carrito{
     position: absolute;
-    top: 0px;
-    left: 1290px;
-    width: 110px;
-    height: 800px;
+    top: 52px;
+    left: 1224px;
+    width: 33px;
+    height: 32px;
+    background: transparent;
+}
+
+.barra{
+    float: right;
+    width: 151px;
+    height: 1080px;
     background: #212020;
     border-top-right-radius: 10px;
+    z-index: -1;
 }
