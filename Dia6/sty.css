@@ -10,24 +10,24 @@
 html{
     margin: 0%;
     padding: 0%;
-    height: 1080px;
-    width: 1920px;
+    height: 100vw;
+    width: 100vh;
 }
 
 body{
-    border: none;
-    position: absolute;
+    margin: 0%;
+    width: 100vw;
+    height: 100vh;
+
 }
 
 .fondowite{
     position: absolute;
     margin: 0%;
     padding: 0%;
-    top: 0px;
-    left: 0px;
-    width: 1769px;
-    height: 1080px;
-    background-color: white;
+    width: 92.2vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -81,9 +81,8 @@ body{
 
 .barra{
     float: right;
-    width: 151px;
-    height: 1080px;
+    width: 7.9vw;
+    height: 100vh;
     background: #212020;
     border-top-right-radius: 10px;
-    z-index: -1;
 }
