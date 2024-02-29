@@ -1,7 +1,113 @@
+@font-face {
+    font-family: 'Open sans, Regular';
+    src: url(letrita/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: 'bold';
+    src: url(letrita/OpenSans-SemiBold.ttf) format('truetype');
+}
+
 body{
+    margin: 0%;
     width: 100vw;
 }
-
-.franchesco{
-
+html{
+    margin: 0%;
 }
+.franchesco{
+    padding:0%;
+    margin: 0%;
+    width: 1920px;
+    height: 1080px;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.pluto{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 1390px;
+    height: 800px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    z-index: 1;
+}
+
+.plato{
+    position: absolute;
+    top: 200px;
+    left: 1390px;
+    width: 110px;
+    height: 801px;
+    background: #212020 0% 0% no-repeat padding-box;
+    border-radius: 0px 8px 8px 0px;
+    opacity: 1;
+    z-index: 1;
+}
+
+.metrixx{
+    z-index: 1;
+    position: absolute;
+    top: 243px;
+    left: 143px;
+    width: 196px;
+    height: 44px;
+}
+
+#agua{
+    position: absolute;
+    z-index: 1;
+    top: 240px;
+    left: 800px;
+    width: 230px;
+    height: 41px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: 'Open sans, Regular';
+    font-size: 25px;
+    opacity: 1;
+    border: none;
+    background: transparent;
+}
+
+#azucar{
+    position: absolute;
+    z-index: 1;
+    top: 242px;
+    left: 1072px;
+    width: 132px;
+    height: 41px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family:'Open sans, Regular';
+    font-size: 25px;
+    opacity: 1;
+    border: none;
+    background: transparent;
+}
+
+#lupitix{
+    position: absolute;
+    z-index: 1;
+    top: 252px;
+    left: 1224px;
+    width: 27px;
+    height: 27px;
+    opacity: 1;
+}
+
+#carix{
+    position: absolute;
+    z-index: 1;
+    top: 252px;
+    left: 1324px;
+    width: 33px;
+    height: 23px;
+    opacity: 1;
+}
+

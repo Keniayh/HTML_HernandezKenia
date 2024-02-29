@@ -21,68 +21,89 @@ body{
 
 }
 
+.anuemo{
+    padding:0%;
+    margin: 0%;
+    width: 1920px;
+    height: 1080px;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
 .fondowite{
     position: absolute;
-    margin: 0%;
-    padding: 0%;
-    width: 92.2vw;
-    height: 100vh;
-    background-color: rgb(255, 255, 255);
+    top: 200px;
+    left: 100px;
+    width: 1390px;
+    height: 800px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    z-index: 1;
 }
 
 
 #metrix{
+    z-index: 1;
     position: absolute;
-    top: 42px;
-    left: 59px;
-    width: 269px;
-    height: 60px;
-    padding: 0%;
+    top: 243px;
+    left: 143px;
+    width: 196px;
+    height: 44px;
 }
 
 #avr{
-    font-family: 'Open sans, Regular';
-    top: 56px;
-    left: 960px;
-    width: 1769px;
-    height: 55px;
-    font-size: 30px;
     position: absolute;
-    background: transparent;
-    border: none;
-    cursor: pointer;
+    z-index: 1;
+    top: 240px;
+    left: 800px;
+    width: 230px;
+    height: 41px;
     text-align: left;
-    padding: 0%;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: 'Open sans, Regular';
+    font-size: 25px;
+    opacity: 1;
+    border: none;
+    background: transparent;
 }
 
 #eso{
-    font-family: 'Open sans, Regular';
-    border: none;
-    cursor: pointer;
-    background: transparent;
-    text-align: left;
-    font-size: 30px;
-    padding: 0%;
-    top: 56px;
-    left: 1333px;
-    width: 181px;
-    height: 55px;
     position: absolute;
+    z-index: 1;
+    top: 242px;
+    left: 1072px;
+    width: 132px;
+    height: 41px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family:'Open sans, Regular';
+    font-size: 25px;
+    opacity: 1;
+    border: none;
+    background: transparent;
 }
 
 #carrito{
     position: absolute;
-    top: 52px;
-    left: 1224px;
+    z-index: 1;
+    top: 252px;
+    left: 1324px;
     width: 33px;
-    height: 32px;
-    background: transparent;
+    height: 23px;
+    opacity: 1;
 }
 
 .barra{
-    float: right;
-    width: 7.9vw;
-    height: 100vh;
-    background: #212020;
-    border-top-right-radius: 10px;
+    position: absolute;
+    top: 200px;
+    left: 1390px;
+    width: 110px;
+    height: 801px;
+    background: #212020 0% 0% no-repeat padding-box;
+    border-radius: 0px 8px 8px 0px;
+    opacity: 1;
+    z-index: 1;
 }
