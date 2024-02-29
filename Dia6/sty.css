@@ -67,6 +67,7 @@ body{
     opacity: 1;
     border: none;
     background: transparent;
+    cursor: pointer;
 }
 
 #eso{
@@ -84,6 +85,8 @@ body{
     opacity: 1;
     border: none;
     background: transparent;
+    transition: transform 1.5s ease;
+    cursor: pointer;
 }
 
 #carrito{
@@ -94,6 +97,35 @@ body{
     width: 33px;
     height: 23px;
     opacity: 1;
+}
+
+#lupix{
+    position: absolute;
+    z-index: 1;
+    top: 252px;
+    left: 1224px;
+    width: 27px;
+    height: 27px;
+    opacity: 1;
+}
+
+#upp{
+    position: absolute;
+    z-index: 1;
+    top: 240px;
+    left: 1433px;
+    width: 24px;
+    height: 14px;
+    opacity: 1;
+}
+
+#downp{
+    position: absolute;
+    z-index: 1;
+    top: 946px;
+    left: 1433px;
+    width: 24px;
+    height: 14px;
 }
 
 .barra{

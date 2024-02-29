@@ -58,6 +58,7 @@ html{
 }
 
 #agua{
+    cursor: pointer;
     position: absolute;
     z-index: 1;
     top: 240px;
@@ -75,6 +76,7 @@ html{
 }
 
 #azucar{
+    cursor: pointer;
     position: absolute;
     z-index: 1;
     top: 242px;
@@ -111,3 +113,40 @@ html{
     opacity: 1;
 }
 
+#LFDSDMDFR{
+    position: absolute;
+    z-index: 1;
+    top: 303px;
+    left: 459px;
+    width: 576px;
+    height: 324px;
+    background: transparent;
+    opacity: 1;
+}
+
+#up{
+    position: absolute;
+    z-index: 1;
+    top: 240px;
+    left: 1433px;
+    width: 24px;
+    height: 14px;
+    opacity: 1;
+}
+
+#down{
+    position: absolute;
+    z-index: 1;
+    top: 946px;
+    left: 1433px;
+    width: 24px;
+    height: 14px;
+}
+
+.sies{
+    transition: opacity 1.5s ease;
+}
+
+.sies:hover::after{
+    opacity: 0.3s ease;
+}
