@@ -1,0 +1,83 @@
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+    .font-style-title {font-family:'Source Sans Pro', sans-serif !important;
+    }
+    .font-style-subtitle {font-family: 'Source Sans Pro', sans-serif !important;
+    }
+    .font-style-heading {font-family: 'Source Sans Pro', sans-serif !important;
+    }
+    .font-style-normalText {font-family: 'Source Sans Pro', sans-serif !important;
+    }
+</style>
+
+El Módulo de Caja Flexible, comúnmente llamado flexbox, fue diseñado como un modelo unidimensional de layout, y como un método que pueda ayudar a distribuir el espacio entre los ítems de una interfaz y mejorar las capacidades de alineación. Este artículo hace un repaso de las principales características de flexbox, las que exploraremos con mayor detalle en el resto de estas guías.
+El eje principal
+El eje principal está definido por flex-direction, que posee cuatro posibles valores:
+
+row
+row-reverse
+column
+column-reverse
+Si elegimos row o row-reverse, el eje principal correrá a lo largo de la fila según la dirección de la línea .
+
+If flex-direction is set to row the main axis runs along the row in the inline direction.
+Al elegir column o column-reverse el eje principal correrá desde el borde superior de la página hasta el final — según la dirección del bloque.
+
+If flex-direction is set to column the main axis runs in the block direction.
+El eje cruzado
+El eje cruzado va perpendicular al eje principal, y por lo tanto si flex-direction (del eje principal) es row o row-reverse el eje cruzado irá por las columnas.
+
+If flex-direction is set to row then the cross axis runs in the block direction.
+Si el eje principal es column o column-reverse entonces el eje cruzado corre a lo largo de las filas.
+
+If flex-direction is set to column then the cross axis runs in the inline direction.
+Entender cuál eje es cuál es importante cuando empezamos a mirar la alineación y justificación flexible de los ítems; flexbox posee propiedades que permiten alinear y justificar el contenido sobre un eje o el otro.
+
+
+Un área del documento que contiene un flexbox es llamada contendedor flex. Para crear un contenedor flex, establecemos la propiedad del área del contenedor display como flex o inline-flex. Tan pronto como hacemos esto, los hijos directos de este contenedor se vuelven ítems flex. Como con todas las propiedades de CSS, se definen algunos valores iniciales, así que cuando creemos un contenedor flex todos los ítems flex contenidos se comportarán de la siguiente manera.
+
+Los ítems se despliegan sobre una fila (la propiedad flex-direction por defecto es row).
+Los ítems empiezan desde el margen inicial sobre el eje principal.
+Los ítems no se ajustan en la dimensión principal, pero se pueden contraer.
+Los ítems se ajustarán para llenar el tamaño del eje cruzado.
+La propiedad flex-basis es definida como auto.
+La propiedad flex-wrap es definida como nowrap.
+
+
+Colocando flex-direction: row-reverse se mantendrá el despliegue a lo largo de la fila, sin embargo el inicio y final quedarán al revés del original.
+
+Si cambiamos flex-direction a column el eje principal se cambiará y los ítems aparecerán en una columna. Colocando column-reverse las líneas de inicio y fin serán nuevamente puestas al revés.
+
+El ejemplo en vivo de abajo tiene flex-direction puesto como row-reverse. Pruebe los otros valores — row, column y column-reverse — para ver qué sucede con el contenido.
+
+height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+The transition effect will start when the specified CSS property (width) changes value.
+
+Now, let us specify a new value for the width property when a user mouses over the <div> element:
+
+Example
+div:hover {
+  width: 300px;
+}
+Notice that when the cursor mouses out of the element, it will gradually change back to its original style.
+
+Change Several Property Values
+The following example adds a transition effect for both the width and height property, with a duration of 2 seconds for the width and 4 seconds for the height:
+
+Example
+div {
+  transition: width 2s, height 4s;
+
+
+
+3 color body = #1e1d2b
+1 naranja = #ff702a
+2 blanco
+4 negro
+5 rosi = #ffefe8
+6 color del menu movil? #2c2b47 no

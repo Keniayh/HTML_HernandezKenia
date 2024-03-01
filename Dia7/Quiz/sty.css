@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family: 'Poppins';
+    width: 1920px;
+    background-color: #1e1d2b;
+}
+
+#fi{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    color: #ff702a;
+    font-size: 45px;
+}
+
+.dimecuandotu{
+    background:#ff702a;
+    width: 120px;
+    height: 17px;
+    color: #ffffff;
+    position: absolute;
+    top: 550px;
+    left: 150px;
+}
+#ji{
+    background-color: #ff702a;
+    height: 40px;
+}
+#vasavolver{
+    color: #ffffff;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    left: 1050px;
+}
+
+#vasavolve{
+    color: #ffffff;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    left: 1200px;
+}
+
+#vasavolv{
+    color: #ffffff;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    left: 1350px;
+}
+
+#vasavol{
+    color: #ffffff;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    right: 280px;
+}
+
+#vasavo{
+    color: #ffffff;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    right: 80px;
+}
+
+#azulcaramelo{
+    color: #ff702a;
+    font-size: 100px;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+#solotu{
+    color: #ffffff;
+    font-size: 50px;
+    position: absolute;
+    top: 330px;
+    left: 150px;
+}
+
+#comia{
+    width: 600px;
+    position: absolute;
+    top: 170px;
+    left: 1100px;
+}
+
+.ya{
+    position: absolute;
+    top: 1000px;
+    left: 0px;
+    width: 1920px;
+    height: 900px;
+}
+
+#about{
+    width: 600px;
+    position: absolute;
+    left: 250px;
+}
+
+#si{
+    color:#ff702a;
+    font-size: 30px;
+    float: right;
+    position: absolute;
+    top: 40px;
+    right: 800px;
+}
+
+#aja{
+    color: #ffffff;
+    font-size: 50px;
+    float: right;
+    position: absolute;
+    top: 90px;
+    right: 450px;
+}
+
+#ajaa{
+    color: #ffffff;
+    font-size: 30px;
+    float: right;
+    position: absolute;
+    top: 280px;
+    right: 360px;
+}
+
+#sithf{
+    color: #ffffff;
+    background-color: #ff702a;
+    text-align: center;
+    font-size: 30px;
+    float: right;
+    position: absolute;
+    top: 450px;
+    right: 770px;
+}
+
+.mucho{
+    position: absolute;
+    top: 1900px;
+    left: 0px;
+    width: 1920px;
+    height: 900px;
+}
+
+#ayno{
+    color: #ff702a;
+    font-size: 30px;
+    text-align: center;
+}
+
+#time{
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+}
+
+div#caja1{
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    background-color: #ffefe8;
+    top: 400px;
+    left: 200px;
+}
+
+#rayo{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 1;
+}
