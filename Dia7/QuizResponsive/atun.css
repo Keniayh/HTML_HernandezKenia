@@ -1,42 +1,138 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    font-family: monospace, Poppins, sans-serif;
+}
+
+header{
+    height: 100px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
 }
 
 body{
     background-color: #1e1d2b;
-    width: 100vw;
-    height: 100vh;
-    font-size: 10px;
-    font-family: 'Poppins';
 }
 
-a{
+.m{
+    color: #ff702a;
+    font-size: 3vw;
+    padding: 10px 0 0 4vw;
+    font-weight: 200;
     text-decoration: none;
 }
 
-.machupichu{
-    position: relative;
-    width: 100vw;
-    height: 1080px;
+.pikachu a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    transition: 0.4s;
+
 }
 
-#m{
-    position: absolute;
-    font-size: 3.5em;
-    padding: 1.5em;
+.mostrarmenu,
+.escondemenu{
+    font-size: 35px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+
+}
+
+.mostrarmenu{
+    order: 1;
+}
+.pikachu a:hover,
+.mostrarmenu:hover,
+.escondemenu:hover{
     color: #ff702a;
 }
 
-.pikachu{
-    position: absolute;
+#check{
+    display: none;
+}
+/*section1*/
+#macarena{
+    padding: 20vh 0 0 15vw;
+}
+.sand{
+    height: 100%;
     display: flex;
-    left: 40vw;
+    flex-direction: column;
+    justify-content: center;
+}
+#orange{
+    color: #ff702a;
+    font-size: 5vw;
+    padding: 0 0 30px 0;
 }
 
-#k{
-    color: #fff;
-    font-size: 3em;
-    padding: 2em;
+#ora{
+    color: white;
+    padding: 0 0 30px 0;
+    font-size: 2vw;
+}
+
+.hp{
+    text-decoration: none;
+    font-size: 1.5vw;
+    padding: 15px;
+    color: white;
+    background-color: #ff702a;
+    align-self: baseline;
+    transform: 0.4s;
+}
+
+.hp:hover{
+    border: 1px solid white;
+}
+#home{
+    align-self: end;
+    width: 30vw;
+    position: absolute;
+    right: 10vw;
+}
+/* RESPONSIVE */
+/*Regla de consulta de medios*/
+/*Indica que las siguientes reglas de estilo se aplicarán solo cuando la anchura de la pantalla sea igual o inferior a 768px*/
+/*Cuando la pantalla sea menor o igual a 768px, ocurrira todo lo que se ponga en @media*/
+@media(max-width: 955px){
+    .mostrarmenu,
+    .escondemenu{
+        display: block; /*los elementos se mostraran como bloques*/
+    }
+    /*Esto es lo que se ve cuando se hace click en las tres barritas*/
+    .pikachu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #1e1d2b;
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 100px 0;
+        z-index: 100;
+        transition: 1s;
+    }
+
+    .pikachu a{
+        display: block; /*ayuda a que no se sobrepongan :D*/
+        padding: 20px;
+    }
+
+    .escondemenu{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    /*cuando el check este check xd,  y todos los elementos de check osea pikachu*/
+    #check:checked ~ .pikachu{
+            right: 0; /* cuando hago click aparece desde la derecha ;)*/
+    }
 }

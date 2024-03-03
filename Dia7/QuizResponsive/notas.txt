@@ -1,0 +1,6 @@
+<header> --> es como un encabezado, es la parte superior de las páginas web.
+<nav></nav> --> donde esta mi menu
+<input> --> para que aparezcan las tres rayistas si el tamaño de la pantalla es pequeño.
+<section></section> --> divide secciones de una pagina web,
+le agrego dentro un <div></div> para poder trabajar mejor con bloques y posicionar elementos.
+<span></span> --> sirve para agregar estilo dentro de un parrafo o texto.
