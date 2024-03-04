@@ -59,6 +59,8 @@ body{
 }
 /*section1*/
 #macarena{
+    display: flex;
+    align-items: center;
     padding: 0 0 0 15vw;
 }
 .sand{
@@ -93,10 +95,8 @@ body{
     border: 1px solid white;
 }
 #home{
-    align-self: end;
     width: 30vw;
-    position: absolute;
-    right: 10vw;
+    margin: 0 0 0 5vw;
 }
 /*section2*/
 
@@ -306,7 +306,7 @@ a#dicho{
             right: 0; /* cuando hago click aparece desde la derecha ;)*/
     }
 
-    .sand{
+    #macarena{
         flex-direction: column;
     }
 
