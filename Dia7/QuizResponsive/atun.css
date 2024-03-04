@@ -175,16 +175,6 @@ body{
     margin: 0 2vw;
     background-color: #ffefe8;
 }
-.makepa{
-    padding: 2vh 2vw;
-    margin: 0 2vw;    
-    background-color: #ffefe8;
-}
-.cupido{
-    padding: 2vh 2vw;
-    margin: 0 2vw;
-    background-color: #ffefe8;
-}
 
 /*section4*/
 .continer{
@@ -278,11 +268,6 @@ a#dicho{
     display: flex;
 }
 
-#amor{
-    background-color: #ff702a;
-    border-radius: 50%;
-    width: 1vw;
-}
 /* RESPONSIVE */
 /*Regla de consulta de medios*/
 /*Indica que las siguientes reglas de estilo se aplicarán solo cuando la anchura de la pantalla sea igual o inferior a 768px*/
@@ -324,4 +309,22 @@ a#dicho{
     .sand{
         flex-direction: column;
     }
+
+    .microtdh{
+        margin: 10px;
+    }
+    #paraiso{
+        display: block;
+        flex-direction: column;
+    }
+
+    .whatabout{
+        padding: 100vw 0 0 0;
+        margin: 50vw 0 0 0;
+    }
+
+    #sick{
+        flex-direction: column;
+    }
+
 }
