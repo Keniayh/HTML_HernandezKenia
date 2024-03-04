@@ -1,0 +1,30 @@
+header{
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: beige;
+    font-size: 5vw;
+    transition: 0.4;
+    flex-grow: 1;
+    align-items: stretch;
+    margin: 2vw;
+    border-radius: 20%;
+}
+
+a:hover{
+    
+    background-color: rgb(235, 197, 149);
+    color: cadetblue;
+}

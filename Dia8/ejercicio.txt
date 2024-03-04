@@ -1,0 +1,15 @@
+Ejemplos y Ejercicios
+
+1. Crear una barra de navegación horizontal que sea
+flexible y se ajuste automáticamente al tamaño de los
+elementos. Debe tener cuatro elementos de enlace:
+"Inicio", "Acerca de", "Servicios" y "Contacto". Los
+elementos deben estar centrados horizontalmente y
+separados con un espaciado uniforme.
+
+2. Crear una sección de artículos destacados utilizando
+Flexbox. Cada artículo debe tener una imagen y un título.
+Los artículos deben estar distribuidos en una fila con un
+espaciado uniforme entre ellos. Asegúrate de que los
+artículos se ajusten automáticamente al tamaño de la
+pantalla y se vean bien en dispositivos móviles.
