@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #030203;
+}
+/*section 1*/
+
+.quesgrid{
+    display: grid;
+}
+.quesgrid div{
+    margin: 2vi;
+}
+
+img{
+    border-radius: 6%;
+}
+
+/*section2*/
+.rtanose{
+    display: grid;
+}
+
+.rtanose img{
+    margin: 2vi;
+}
