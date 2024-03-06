@@ -1,26 +1,57 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: #030203;
+    
 }
 /*section 1*/
 
-.quesgrid{
+.quesgrid {
     display: grid;
-}
-.quesgrid div{
-    margin: 2vi;
-}
-
-img{
-    border-radius: 6%;
+    padding: 2vi;
+    border-radius: 15px;
+    grid-template-columns: repeat(2, 1fr);  
+    background-color: #030203;  
+    gap: 10px; /* Ajusta el espacio entre columnas según sea necesario */
 }
 
+.columna {
+    display: flex;
+    flex-direction: column;
+}
+
+.fila {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Ajusta el espacio entre las imágenes dentro de cada fila */
+}
+
+.murcielago img,
+.plastic img,
+.lagartija img,
+.muchotxt img {
+    margin: 1vi;
+    width: 90%;
+    height: auto;
+    border-radius: 8px; /* Añade esquinas redondeadas (opcional) */
+}
+
+.lagartija img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Añade esquinas redondeadas (opcional) */
+  object-fit: cover; /* Hace que la imagen abarque el contenedor manteniendo su relación de aspecto */
+  height: 300px; /* Ajusta la altura según tus necesidades */
+}
 /*section2*/
 .rtanose{
+   
     display: grid;
+    margin: 4vi;
+    background-color: #030203;
+    border-radius: 6%;
 }
 
 .rtanose img{
     margin: 2vi;
+   
 }
