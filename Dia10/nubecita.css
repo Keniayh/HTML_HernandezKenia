@@ -1,0 +1,17 @@
+body{
+    margin: 0%;
+}
+
+
+#paisajito{
+    width: 100vw;
+    height: 100vh;
+}
+
+#casota{
+    position: absolute;
+    
+}
+.paisaje{
+    position: relative;
+}
