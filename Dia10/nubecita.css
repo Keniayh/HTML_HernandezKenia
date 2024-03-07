@@ -1,17 +1,135 @@
 body{
-    margin: 0%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgba(207, 132, 80, 0.485);
 }
 
-
-#paisajito{
+.bro{
+    position: relative;
     width: 100vw;
     height: 100vh;
+    background: url('img/paisajito.jpg') center/cover no-repeat;
 }
+
 
 #casota{
     position: absolute;
-    
+    top: 45vh;
+    left: 55vw;
+    width: 45vw;
+    max-width: 100%;
+    height: 55vh;
 }
-.paisaje{
-    position: relative;
+
+#nube{
+    position: absolute;
+    top: 10vh;
+    right: -10vw;
+    width: 25vw;
+    max-width: 100%;
+    height: 25vh;
+    z-index: 100;
+    animation: nube 10s 6s, lluvia 2s 16s forwards;
+}
+
+#flor{
+    position: absolute;
+    bottom: -20vh;
+    left: 35vw;
+    width: 15vw;
+    max-width: 100%;
+    height: 25vh;
+    opacity: 0; 
+    animation: aparecer 2s 20s forwards;
+}
+
+#sol{
+    position: absolute;
+    top: 10vh;
+    left: 80vw;
+    width: 13vw;
+    max-width: 100%;
+    height: 18vh;
+    opacity: 50%;
+    animation: sol 2s alternate 15s forwards;
+}
+.numeros{
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(15, 14, 14);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 500px;
+    font-size: 100px;
+    text-align: center;
+    background: none;
+}
+
+.numeros::after{
+    content: "1";
+    animation: unodostres 8s forwards;
+    position: absolute;
+    left: 0;
+    top: 50vh;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lluvia{
+    position: absolute;
+    left: 32vw;
+    top: 15vw;
+    opacity: 0%;
+    animation: moverLluvia 5s 16s forwards; 
+}
+
+@keyframes moverLluvia {
+    0% { left: 32vw; }
+    from {opacity: 100%;}
+    to {opacity: 0%;}
+}
+
+
+
+
+@keyframes unodostres {
+    0%, 12.5% { content: "1"; opacity: 1; }
+    25%, 37.5% { content: "2"; opacity: 1; }
+    50%, 62.5% { content: "3"; opacity: 1; }
+    75%, 87.5% { content: "Action"; opacity: 1; }
+    100% { opacity: 0; }
+}
+
+
+@keyframes aparecer {
+    from {bottom: -20vw;
+        opacity: 0;}
+    to {bottom: 2vw;
+        opacity: 1;}
+}
+@keyframes sol {
+    to {opacity: 100%;}
+}
+
+@keyframes nube {
+    from {left: 0px;}
+    to {left: 40vw;}
+}
+
+@keyframes desplazar {
+  0% {
+    right: -25vw; /* Comienza desde el lado derecho */
+  }
+  50% {
+    right: 80vw; /* Se queda en right: 80vw durante 3 segundos */
+  }
+  100% {
+    left: -35vh; /* Continúa hacia left: -30vh */
+  }
 }
