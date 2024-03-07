@@ -61,7 +61,8 @@ body{
     top: 40%;
     transform: translate(-50%, -50%);
     color: rgb(15, 14, 14);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 1px rgb(88, 185, 96);
     height: 500px;
     font-size: 100px;
     text-align: center;
@@ -84,23 +85,25 @@ body{
 #lluvia{
     position: absolute;
     left: 32vw;
-    top: 15vw;
+    top: 20vw;
     width: 20vw;
     opacity: 0%;
     animation: luvia 5s 10s forwards; 
 }
 
 @keyframes luvia {
-    0% { left: 32vw; }
-    from {opacity: 100%;}
+    0% { left: 32vw; 
+        top: 20vw;}
+    from {opacity: 100%;
+        top: 10vw;}
     to {opacity: 0%;}
 }
 
 @keyframes unodostres {
-    0%, 12.5% { content: "1"; opacity: 1; }
-    25%, 37.5% { content: "2"; opacity: 1; }
-    50%, 62.5% { content: "3"; opacity: 1; }
-    75%, 87.5% { content: "Action"; opacity: 1; }
+    0%, 12.5% { content: "3"; opacity: 0.7; }
+    25%, 37.5% { content: "2"; opacity: 0.7; }
+    50%, 62.5% { content: "1"; opacity: 0.7; }
+    75%, 87.5% { content: "Action"; opacity: 0.7; }
     100% { opacity: 0; }
 }
 
@@ -116,7 +119,14 @@ body{
 }
 
 @keyframes nube {
-
-    from {right: -20vw;}
-    to {left: 35vw;}
+    0% {
+        left: 100%;
+    }
+    50% {
+        left: 30%;
+    }
+    100% {
+        left: -100%;
+    }
 }
+
