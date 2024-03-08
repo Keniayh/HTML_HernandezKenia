@@ -119,13 +119,84 @@ body{
     opacity: 1;
 }
 
-#downp{
+img#down{
     position: absolute;
     z-index: 1;
     top: 946px;
     left: 1433px;
     width: 24px;
     height: 14px;
+}
+
+p#text1{
+    position: absolute;
+    top: 861px;
+    left: 158px;
+    width: 716px;
+    height: 55px;
+    font-family: 'Open sans, SemiBold';
+    font-size: 30px;
+    z-index: 1;
+    width: 716px;
+    height: 55px;
+}
+
+p#text2{
+    position: absolute;
+    top: 924px;
+    left: 157px;
+    width: 139px;
+    height: 37px;
+    font-family: 'Open sans, SemiBold';
+    font-size: 17px;
+    z-index: 1;
+    width: 139px;
+    height: 37px;
+
+}
+
+a#text3{
+    position: absolute;
+    cursor: pointer;
+    font-size: 26px;
+    text-decoration: none;
+    top: 60px;
+    left: 25px;
+    width: 111px;
+    height: 36px;
+    font-family: 'Open sans, SemiBold';
+    z-index: 1;
+ 
+}
+
+img#bro{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 129px;
+    height: 29px;
+    z-index: 2;
+}
+
+.verde{
+    position: absolute;
+    top: 847px;
+    left: 1180px;
+    width: 160px;
+    height: 114px;
+    z-index: 1;
+    background-color: #D5FF43;
+    border-radius: 8px;
+    text-align: center;
+}
+
+img#tarjeta{
+    position: absolute;
+    top: 322px;
+    left: 227px;
+    width: 884px;
+    height: 497px;
+    z-index: 2;
 }
 
 .barra{

@@ -150,3 +150,97 @@ html{
 .sies:hover::after{
     opacity: 0.3s ease;
 }
+
+p#t1{
+    position: absolute;
+    top: 600px;
+    left: 401px;
+    width: 700px;
+    height: 55px;
+    font-family: 'bold';
+    font-size: 35px;
+    z-index: 1;
+    text-align: left;
+    letter-spacing: 0px;
+}
+
+p#t2{
+    position: absolute;
+    font-family: 'bold';
+    font-size: 22px;
+    z-index: 1;
+    top: 677px;
+    left: 583px;
+    width: 329px;
+    height: 37px;
+    text-align: left;
+}
+
+p#t3{
+    position: absolute;
+    font-family: 'bold';
+    font-size: 22px;
+    z-index: 1;
+    text-align: left;
+    top: 744px;
+    left: 639px;
+    width: 200px;
+    height: 37px;
+}
+
+.for{
+    position: absolute;
+    z-index: 1;
+    top: 799px;
+    left: 595px;
+    width: 288px;
+    height: 58px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+    align-items: center;
+}
+
+#khe{
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    border: none;
+    font-size:20px;
+    text-align: center;
+}
+
+a#text3{
+    position: absolute;
+    cursor: pointer;
+    font-size: 26px;
+    text-decoration: none;
+    top: 60px;
+    left: 25px;
+    width: 111px;
+    height: 36px;
+    font-family: 'Open sans, SemiBold';
+    z-index: 1;
+ 
+}
+
+.verde{
+    position: absolute;
+    top: 847px;
+    left: 1180px;
+    width: 160px;
+    height: 114px;
+    z-index: 1;
+    background-color: #D5FF43;
+    border-radius: 8px;
+    text-align: center;
+}
+
+img#bro{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 129px;
+    height: 29px;
+    z-index: 2;
+}
